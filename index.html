@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio__home画面</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <script src="./JS/main.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Source+Sans+3&display=swap">
+</head>
+<body>
+    <header>
+        <h1 class="head">My Profile</h1>
+        <nav class="nav-part">
+
+            <div class="hamburger-menu" id="hamburger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <ul class="nav-list" id="nav-list">
+                <li><a href="#profile-information">PROFILE</a></li>
+                <li><a href="#skills">SKILLS</a></li>
+                <li><a href="#ever-works">Programming Portfolio</a></li>
+                <li><a href="#contact-information">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+        <div class="overall-wrapping">
+            <div class="section" id="profile-information">
+                <p class="title">~Introduction~</p>
+                <h3 class="name">Shintaro Tsuji</h3>
+                <p class="script">都内私立大学4年生（2025年3月卒業予定）コロナ禍の大学3年時にWebdesign、プログラミング学習を開始。スクールやオンライン講座を経て主に
+                    独学で学習し、Portfolioにあるような「隠れ家ミッケ」や「フィットネスアプリ」を作成。
+                    「自分の知識や経験を活かして他者貢献する」という軸のもと活動しており、プログラミング以外にも塾講師やメディア運営なども経験。 
+                </p>
+
+                <div class="timeline">
+                    <!-- 1つ目のイベント -->
+                    <div class="container left">
+                        <div class="content">
+                            <img class="profile-img" src="./IMG4/akachan.jpg">
+                            <h3 class="profile-year">2000年</h3>
+                            <p class="profile-text">誕生!（上の画像はもちろん僕じゃありません）<br>小さい頃は内気でおとなしい子供だったが小学生になるとよく遊びまわる活発な子供になる。
+                            <br>学生時代は色々なスポーツに熱中していた（ソフトボール、水泳、卓球など）小学校の劇でコントの作成と主役を行い大成功。
+                            みんなが大爆笑してくれたのをすごく思い出に残っている。ここからモノ作りに興味を持ち始める。
+                            </p>
+                        </div>
+                    </div>
+                    <!-- 2つ目のイベント -->
+                    <div class="container right">
+                        <div class="content">
+                            <img class="profile-img" src="./IMG4/zetubou.jpg">
+                            <h3 class="profile-year">2020年</h3>
+                            <p class="profile-text">一浪して大学に入学もコロナが蔓延。授業が全てオンラインになり友達と外出するのも困難になった。<br>この時自分１人の時間が多く
+                                できたのでその時間を有効活用しようと思い資格習得に励む。日商簿記2級、TOEIC800点、ITパスポート、販売士など様々な資格を習得した。
+                                年間100冊の読書も達成!<br>社会人になってからも役に立つ資格を取得でき、その時学んだ様々なことが今の自分を支える大きな地盤となっているのであの時の自分に本当に感謝。
+                            </p>
+                        </div>
+                    </div>
+                    <!-- 3つ目のイベント -->
+                    <div class="container left">
+                        <div class="content">
+                            <img class="profile-img" src="./IMG4/hope.jpg">
+                            <h3 class="profile-year">2022</h3>
+                            <p class="profile-text">塾講師の経験から自分の知識を活かして仕事をすることにやりがいを感じ、Web製作の勉強をスタートする。HTML,CSSなどWebデザインの言語を中心に
+                                学習していたがそこから本格的にプログラミング学習を始める。<br><strong>そしてプログラマーになることを決意!</strong>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="container right">
+                        <div class="content">
+                            <img class="profile-img" src="./IMG4/men-1835901_1280.jpg">
+                            <h3 class="profile-year">2023年</h3>
+                            <p class="profile-text">（上の画像はもちろん僕じゃありません）オーストラリアに語学留学（人生初海外!）コロナ禍で英語の基礎をたくさん勉強していたおかげで無事大成功!今でも英語は話せます。（外国人の友達もできた!）<br>コロナも落ち着いてきたので学外のイベントへの参加やインカレサークルにも参加するなど
+                                色々な場所に足を運んでいました。イスに座ってばかりだとつまんないからね（笑）
+                            </p>
+                        </div>
+                    </div>
+                    <div class="container left">
+                        <div class="content">
+                            <img class="profile-img" src="./IMG4/kotukotu.jpg">
+                            <h3 class="profile-year">2024年</h3>
+                            <p class="profile-text">休学したこともあって最後の大学生活!プログラマー就職を行い<strong>大成功!</strong><br>プログラマー生活頑張ります（笑）<br>それと同時にフリーランスになりたい願望が生まれ
+                                それに向けて日々奮闘中!仕事も遊びも大好きなので両方手を抜かずに頑張りたいし若いうちにやりたいことは迷わず全てやっていきたい!!!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="section" id="skills">
+                <p class="title">~Skills~</p>
+                <div class="skill-wrapping">
+                    <div>
+                        <h3 class="skill-name">Webdesign, Web製作</h3>
+                        <p class="skill-script">（使用言語）HTML, CSS, JAVASCRIPT, Flask, Django, Laravelを主に使用しています。フルスタックエンジニアを目指していて
+                            それに向けて日々学習を続けています。下の棒グラフは5段階で私の技術を5段階評価で表しています（by Chat GPT）<br><br>私自身まだ学生で社会経験に乏しいので実務経験はありませんが日々継続的に学習を続けていき、下に
+                            あるような作品を作ってきました。将来はフルスタックエンジニアとしてWebサイトだけでなくWebアプリの作成を行っていきたいと思っています。
+                            <br>全体的に浅く広くの印象を与えてしまうと思いますがこれから自己学習や仕事を通じてこのグラフをより大きくしていきたいと思います。
+                            またこれ以外の言語も必要であればチャレンジしてみたいので要望があれば言ってください。
+                        </p>
+                    </div>
+                    <div id="skills-chart">
+                        <canvas id="myHorizontalBarChart" width="300" height="300"></canvas>
+                    </div>
+                    <script>
+                        const ctx = document.getElementById('myHorizontalBarChart').getContext('2d');
+
+                        new Chart(ctx, {
+                            type: 'bar',
+                            data: {
+                                labels: ['HTML/CSS', 'JavaScript', 'Python', 'Flask', 'Django', 'Laravel'], // スキル名
+                                datasets: [
+                                    {
+                                        label: 'フロントエンド', // フロントエンドスキル
+                                        data: [4, 3.5, 0, 0, 0, 0], // スキルレベル
+                                        backgroundColor: 'rgba(0, 123, 255, 0.9)', // フロントエンドの色
+                                        borderColor: 'rgba(0, 123, 255, 1)',
+                                        borderWidth: 1
+                                    },
+                                    {
+                                        label: 'バックエンド', // バックエンドスキル
+                                        data: [0, 0, 3, 3.5, 2, 3], // スキルレベル
+                                        backgroundColor: 'rgba(255, 99, 132, 0.9)', // バックエンドの色
+                                        borderColor: 'rgba(255, 99, 132, 1)',
+                                        borderWidth: 1
+                                    }
+                                ]
+                            },
+                            options: {
+                            indexAxis: 'y',
+                            scales: {
+                                x: {
+                                    beginAtZero: true,
+                                    suggestedMax: 5 
+                                }
+                            },
+                            plugins: {
+                                legend: {
+                                    display: true,
+                                    position: 'top'
+                                }
+                            },
+                            responsive: true,
+                            maintainAspectRatio: false
+                        }
+                        });
+                    </script>
+                </div>
+
+            </div>
+
+            <div class="section" id="ever-works">
+                <p class="title">~Programming Portfolio~</p>
+                <p class="skill-script">私が日々イスに座り汗をかきながら腕によりをかけて作った作品達です。ぜひご鑑賞ください。もちろん今後新しい作品を作ればどんどん
+                    更新していく所存ですので定期的に遊びに来てください!
+                </p>
+                <div class="works-list">
+
+                    <div class="work-example">
+                        <a href="./HTML/kakurega.html"><img class="works-img" src="./IMG/kakuregamikke5.png"></a>
+                        <dl>
+                            <dt class="detail-title">タイトル: 隠れ家ミッケ</dt>
+                            <dd class="detail-description">一般公開はしていませんが、学習の一環として作ってみました。Google APIを活用したWebアプリです。
+                                ユーザーは近くにある個人店のお店を見つけることが出来ます。
+                            </dd>
+                        </dl>
+                    </div>
+
+                    <div class="work-example">
+                        <a href="./HTML/fitness.html"><img class="works-img" src="./IMG2/fitness2.png"></a>
+                        <dl>
+                            <dt class="detail-title">タイトル: フィットネスアプリ</dt>
+                            <dd class="detail-description">こちらも一般公開はしていませんが、学習の一環として作ったWebアプリです。ユーザーは個人の運動時間や運動内容、摂取カロリーなど食事についても
+                                記録が出来ます。
+                            </dd>
+                        </dl>
+                    </div>
+
+                    <div class="work-example">
+                        <a href="./HTML/shoes.html"><img class="works-img" src="./IMG3/shoes.png"></a>
+                        <dl>
+                            <dt class="detail-title">タイトル: Shoes Shopのホームページ</dt>
+                            <dd class="detail-description">こちらは静的なWebサイトです。実際の店舗ではありませんが一般公開されているデザインカンプから作成しました。（ポートフォリオとしての公開は許可済み）
+                
+                            </dd>
+                        </dl>
+                    </div>
+
+
+                    <div class="work-example">
+                    <a href="./HTML/flower.html"><img class="works-img" src="./IMG4/flower.png"></a>
+                    <dl>
+                        <dt class="detail-title">タイトル: Flower Shopのホームページ</dt>
+                        <dd class="detail-description">こちらは静的なWebサイトです。実際の店舗ではありませんが一般公開されているデザインカンプから作成しました。（ポートフォリオとしての公開は許可済み）
+            
+                        </dd>
+                    </dl>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="section" id="contact-information">
+                <p class="title">~Contact~</p>
+                <p class="contact-script">ここまで読んでいただきありがとうございます。これからもプログラマー、Webデザイナーとして自分自身スキルを高めていき
+                    ながら皆さんの期待に応えられるような価値を提供出来るよう日々頑張っていきます！まだまだ未熟ですがお仕事を通じて新しい知識を吸収していき楽しみながら活動していき
+                    たいです。ぜひ「こんなアプリを作ってみたい!」「こんなWebサイトを作りたい!」という考えがある方は気軽に下のフォームから相談して下さい。些細なことでも構いません。
+                    私にできることがあればお力になりたいです!
+                </p>
+                <a class="wave-animation" href="https://forms.gle/fSin8xLH9CvkmzEm6">
+                    お問い合わせはこちらから！気軽に何でも相談して下さい。
+                </a>
+
+            </div>
+        </div>
+    
+</body>
+</html>
